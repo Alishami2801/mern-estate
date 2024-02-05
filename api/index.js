@@ -3,6 +3,7 @@ import mongoose from "mongoose"
 import dotenv from "dotenv";
 import router from "./Routes/user.route.js";
 import authRouter from "./Routes/auth.route.js";
+
 dotenv.config()
 
 mongoose.connect(process.env.MONGO).then(() => {
